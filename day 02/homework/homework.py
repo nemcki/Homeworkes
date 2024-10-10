@@ -1,0 +1,6 @@
+sister1=("lika")
+father=("zaza")
+sister2=("barbare")
+print(sister1)
+print(father)
+print(sister2)

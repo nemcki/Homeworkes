@@ -36,3 +36,14 @@ print(fullname)
 age=(26)
 fullname=("giorgi iadze ")
 print(fullname*age)
+
+#10) კომენტარებით დაწერე, თუ რა არის დეკლარაცია, ინიციალიზიება და რეინიციალიზება. ახსენი რა განსხვავებაა ამათ შორის და მოიყვანე თითოეულზე 2-2 მაგალითი
+#deklaracia nishnavs cvladis sheqmnas
+name=("") 
+num1=(  )
+#inicializeba nishnavs cvladistvis mnishvnelobis sheqmnas
+name=("giorgi")
+num1=(26)
+#reinicializeba nishnavs cvladis mnishvnelobis shecvlas 
+name=("gio")
+num1=(27)

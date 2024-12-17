@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook რეგისტრაცია</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია Facebook-ზე</h2>
+    
+    <form action="#" method="POST">
+        <!-- სახელის და გვარის ველები -->
+        <label for="first_name">სახელი:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">გვარი:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <!-- ელ. ფოსტა -->
+        <label for="email">ელ. ფოსტა:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- პაროლი -->
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- დაბადების თარიღი -->
+        <label for="birthdate">დაბადების თარიღი:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <!-- სქესი -->
+        <label>სქესი:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">კაცი</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">ქალი</label><br><br>
+
+        <!-- რეგისტრაციის ღილაკი -->
+        <button type="submit">რეგისტრაცია</button><br><br>
+    </form>
+
+    <!-- მთავარი გვერდის ბმული -->
+    <p>თუ უკვე გაქვთ Facebook ანგარიში? <a href="#">შესვლა</a></p>
+
+    <footer>
+        <p>Facebook-ს აქვს განახლებული <a href="#">მოზრდილი მომხმარებლის პირობები</a> და <a href="#">კონფიდენციალურობის პოლიტიკა</a>.</p>
+    </footer>
+
+</body>
+</html>

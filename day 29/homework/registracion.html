@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+
+    <!-- სანავიგაციო მენიუ -->
+    <nav>
+        <ul>
+            <li><a href="GOA.html">მთავარი</a></li>
+            <li><a href="registracion.html">რეგისტრაცია</a></li>
+        </ul>
+    </nav>
+
+    <h1>რეგისტრაცია</h1>
+    <p>გთხოვთ შეავსოთ ქვემოთ მოცემული ფორმა რეგისტრაციისთვის.</p>
+
+    <form action="submit_registration.html" method="POST">
+        <!-- სახელი -->
+        <div>
+            <label for="first_name">სახელი:</label>
+            <input type="text" id="first_name" name="first_name" required>
+        </div><br>
+
+        <!-- გვარი -->
+        <div>
+            <label for="last_name">გვარი:</label>
+            <input type="text" id="last_name" name="last_name" required>
+        </div><br>
+
+        <!-- ემაილი -->
+        <div>
+            <label for="email">ელ. ფოსტა:</label>
+            <input type="email" id="email" name="email" required>
+        </div><br>
+
+        <!-- პაროლი -->
+        <div>
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" required>
+        </div><br>
+
+        <!-- გენდერი -->
+        <div>
+            <label>გენდერი:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">კაცი</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">ქალი</label><br>
+        </div><br>
+
+        <!-- Speed (გაკვეთილების რაოდენობა კვირაში) -->
+        <div>
+            <label for="speed">აირჩიეთ თქვენი სასურველი speed:</label>
+            <select id="speed" name="speed" required>
+                <option value="">აირჩიეთ...</option>
+                <option value="1">1 გაკვეთილი კვირაში</option>
+                <option value="2">2 გაკვეთილი კვირაში</option>
+                <option value="3">3 გაკვეთილი კვირაში</option>
+                <option value="4">4 გაკვეთილი კვირაში</option>
+            </select>
+        </div><br>
+
+        <!-- დადასტურების ღილაკი -->
+        <div>
+            <button type="submit">რეგისტრაცია</button>
+        </div>
+    </form>
+
+    <footer>
+        <p>© 2024 Goal Orient Academy</p>
+    </footer>
+
+</body>
+</html>

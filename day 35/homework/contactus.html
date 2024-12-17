@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini - კონტაქტი</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Lamborghini</h1>
+        <nav>
+            <ul>
+                <li><a href="mtavari.html">მთავარი</a></li>
+                <li><a href="aboutus.html">ჩვენ შესახებ</a></li>
+                <li><a href="contactus.html">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>კონტაქტის ფორმა</h2>
+            <p>ჩვენთან დაკავშირებისთვის შეგიძლიათ გამოიყენოთ ქვემოთ მოცემული ფორმა:</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">სახელი:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">ემაილი:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">შეტყობინება:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Lamborghini. ყველა უფლება დაცულია.</p>
+        <p>კონტაქტი: <a href="mailto:info@lamborghini.com">info@lamborghini.com</a></p>
+    </footer>
+</body>
+</html>
